@@ -37,4 +37,4 @@ def findVideo(title=""):
                 except:
                     pass
 
-    return "https://youtube.com/watch?v={0}".format(vidId)  
+    return vidId  
